@@ -11,3 +11,6 @@ LIBS+= -lgomp -lpthread
 include(deployment.pri)
 qtcAddDeployment()
 
+HEADERS += \
+    read_data.h
+
